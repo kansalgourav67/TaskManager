@@ -4,9 +4,7 @@ const route = Route()
 
 // getAllTodos
 route.get('/', async (req,res) => {
-    const todos = await Todos.findAll({
-      attributes: ['id', 'name', 'description', 'due_date', 'status', 'priority']
-    })
+    const todos = await Todos.findAll()
      res.send(todos); 
 })
 

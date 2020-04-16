@@ -1,0 +1,5 @@
+
+#mytable th:hover{
+      cursor: pointer;
+      background-color: #000000;
+}
