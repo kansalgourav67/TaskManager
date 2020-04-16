@@ -1,0 +1,26 @@
+{
+  "name": "taskmanager",
+  "version": "1.0.0",
+  "description": "tasknotesmanager",
+  "main": "Server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "sequelize": "^5.21.6",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kansalgourav67/TaskManager.git"
+  },
+  "author": "gouravkansal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kansalgourav67/TaskManager/issues"
+  },
+  "homepage": "https://github.com/kansalgourav67/TaskManager#readme"
+}
